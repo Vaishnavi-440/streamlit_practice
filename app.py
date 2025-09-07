@@ -5,5 +5,7 @@ lan=st.selectbox("select the language:",["c++","python","java","html"])
 st.write(f"Your choose {lan}.Excellent choice")
 if st.button("submit"):
   st.success("your had successfully choosen the language.SUBMISSION DONE!")
-st.success("your lan has been breded")
+add_lan=st.checkbox(["javascript","css","c"])
+if add_lan:
+  st.success(f"your {add_lan} is added succesfully")
 st.text("THANK YOU")
