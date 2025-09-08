@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("Programming World")
-st.markdown(**WELCOME TO PROFRAMMING EARTH**)
+st.markdown("_Italic word_")
 lan=st.selectbox("select the language:",["c++","python","java","html"])
 st.write(f"Your choose {lan}.Excellent choice")
 if st.button("submit"):
