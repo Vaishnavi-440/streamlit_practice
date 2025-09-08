@@ -3,7 +3,7 @@ import pandas as pd
 st.title("Programming World")
 st.markdown("_Italic word_")
 lan=st.selectbox("select the language:",["c++","python","java","html"])
-st.write(f"Your choose {lan}
+st.write(f"Your choose {lan}")
 st.markdown("basic HELLO WORLD in programme language")
 if st.button("submit"):
   st.success("your had successfully choosen the language.SUBMISSION DONE!")
